@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap" rel="stylesheet');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #f9f9f9;
+  width: 100vh;
+  overflow-x: hidden;
+}
+header {
+  /* position: fixed;    Header will be fixed at the same place*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+}
+.logo {
+  font-size: 2em;
+  color: #359383;
+  pointer-events: none;
+  margin-right: 270px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #359383;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0px 10px;
+  font-weight: 700;
+}
+.navigation a:hover,
+.navigation a.active {
+  color: #f9f9f9;
+  background: #359383;
+}
+.Abhi {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#text {
+  position: absolute;
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  top: 50%;
+}
+.Abhi img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* pointer-events: none; */
+}
+.sec {
+  position: relative;
+  background: #003329;
+  padding: 100px;
+  height: 130vh;
+  width: 100vw;
+  margin-top: 100px;
+}
+.sec h2 {
+  font-size: 3em;
+  color: #f9f9f9;
+  margin-bottom: 10px;
+}
+.sec p {
+  font-size: 1em;
+  color: #f9f9f9;
+  font-weight: 300;
+}
